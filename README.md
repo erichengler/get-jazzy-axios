@@ -1,4 +1,4 @@
-# Get Jazzy AJAX
+# Get Jazzy Axios
 
 ## Description
 
