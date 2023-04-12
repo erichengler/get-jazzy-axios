@@ -1,22 +1,23 @@
 # Get Jazzy AJAX
 
-- Fork or Use Template
-- Clone
-- `npm install` to get all of the dependencies (just `express` for now)
+## Description
 
-## Base
+In this project, we learned how to use axios to GET objects from two arrays of Jazz Artists and Jazz Songs and display them in tables. Above the tables are two forms that the user can input information to be added to the arrays and then displayed in the respective table. 
 
-- Look at the pattern for the working `/artist` server code & AJAX request. 
-- Add the server side code to return all the song data when a GET request is made for `/song`. Test this is working with the browser.
-- Set up a client AJAX request for `/song`, and display the song data on the DOM.
-- Add an HTML form for adding a new artist. Make a POST request to the server with artist information.
-- Add a server route that appends the artist to the array of artists on the server.
+The first form is for Artists and allows the user to input the artist's `Name`, the year the artist was `Born`, and the year the artist `Died`. 
+The second form is for Songs and allows the user to input the `Song` name and the `Artist`. Once either submit button is clicked, the information is added to the array of objects and then displayed in the table below.
 
+## Screenshot
 
-## Stretch
+![Preview](./server/public/images/preview.png)
 
-- Add an HTML form for adding a new song. Make a POST request to the server with song information.
-- Add a server route that appends the song to the array of songs on the server.
-- The `server.js` file is getting a little crowded. Move arrays into a `modules` folder inside of your `server` folder (names like `artist.js` and `song.js` would be good).
-- The `/artist` and `/song` requests are working! Add a third array for albums that has `title` and `year` for the release date.
-- Add some styling to the page
+## Technologies
+
+* Node.js
+* Express
+
+## Installation
+
+1. `npm install` 
+2. Navigate to `http://localhost:5001/`
+
